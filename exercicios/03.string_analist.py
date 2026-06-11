@@ -1,0 +1,5 @@
+texto = input("Digite um texto: ")
+print(f"Maiúsculas: {texto.upper()}")
+print(f"Minúsculas: {texto.lower()}")
+print(f"Número de caracteres: {len(texto)}")
+print(f"Número de palavras: {len(texto.split())}")
